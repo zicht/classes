@@ -1,6 +1,6 @@
 {
     "name": "zicht/classes",
-    "description": "CSS class generation based on predicates.",
+    "description": "PHP utility for conditionally joining CSS classes.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,12 +9,22 @@
             "email": "info@zicht.nl"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:zicht/classes.git"
+        }
+    ],
     "require": {
         "php": "^5.6"
     },
     "require-dev": {
         "phpunit/phpunit": "^4"
     },
+    "autoload": {
+        "psr-4": { "": ["src/"] }
+    },
+    "minimum-stability": "stable",
     "scripts": {
         "test": [
             "@composer install --dev",

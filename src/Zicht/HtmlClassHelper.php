@@ -5,7 +5,7 @@
 namespace Zicht;
 
 /**
- * Class that holds the helper functions for CSS classes.
+ * Utility class for generating CSS class names based on supplied predicates.
  */
 class HtmlClassHelper
 {
@@ -70,7 +70,7 @@ class HtmlClassHelper
      * @param array $array
      * @return bool
      */
-    private static function hasStringKeys(array $array)
+    private static function hasStringKeys($array)
     {
         $keys = array_keys($array);
 
