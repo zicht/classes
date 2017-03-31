@@ -2,6 +2,10 @@
 
 Utility function for conditionally joining CSS classes.
 
+[![Build Status](https://scrutinizer-ci.com/g/zicht/classes/badges/build.png?b=release%2F1.0.x)](https://scrutinizer-ci.com/g/zicht/classes/build-status/release/1.0.x)
+[![Code Coverage](https://scrutinizer-ci.com/g/zicht/classes/badges/coverage.png?b=release%2F1.0.x)](https://scrutinizer-ci.com/g/zicht/classes/?branch=release%2F1.0.x)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zicht/classes/badges/quality-score.png?b=release%2F1.0.x)](https://scrutinizer-ci.com/g/zicht/classes/?branch=release%2F1.0.x)
+
 ## Installing
 
 ```
