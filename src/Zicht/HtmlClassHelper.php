@@ -36,7 +36,7 @@ class HtmlClassHelper
      */
     private static function addArgumentToClasses($classes, $argument)
     {
-        switch(gettype($argument))
+        switch (gettype($argument))
         {
             case 'string':
                 array_push($classes, $argument);
@@ -47,7 +47,7 @@ class HtmlClassHelper
                     break;
                 }
 
-                foreach($argument as $class => $predicate) {
+                foreach ($argument as $class => $predicate) {
                     if (!$predicate) {
                         continue;
                     }
