@@ -1,6 +1,6 @@
-# `classes`
+# classes
 
-Function that conditionally builds a CSS class name.
+Utility function for conditionally joining CSS classes.
 
 ## Installing
 
