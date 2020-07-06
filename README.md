@@ -30,6 +30,3 @@ HtmlClassHelper::classes('art-vandelay', ['kramerica' => false, 'kel-varnsen' =>
 This function was created because the JS equivalent [classnames](https://github.com/JedWatson/classnames) was nice to use in React.
 
 ## Maintainer
-
- - Robert van Kempen ([@DoNormal](https://github.com/DoNormal))
- 
