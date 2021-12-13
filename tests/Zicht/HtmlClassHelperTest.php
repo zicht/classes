@@ -4,13 +4,13 @@
  */
 namespace Zicht;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Zicht\HtmlClassHelper;
 
 /**
  * Tests for the HtmlClassHelperTest class.
  */
-class HtmlClassHelperTest extends PHPUnit_Framework_TestCase
+class HtmlClassHelperTest extends TestCase
 {
     /**
      * @test
